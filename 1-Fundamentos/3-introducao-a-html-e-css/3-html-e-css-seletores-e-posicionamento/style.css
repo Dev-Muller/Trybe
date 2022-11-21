@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, li {
+  font-size: 16px;
+  color: #475550;
+}
+
+h1, h3, .trybe-green {
+  color: #11a36a;
+}
+
+.hero-title {
+  color: #0a7e51;
+  line-height: 55px;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  line-height: 42px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.picture {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.testimonials {
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.button {
+  color: #fff;
+  background-color: #11a36a;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header {
+  background-image: url('./images/smiling-image.jpeg');
+  background-size: cover;
+  height: 600px;
+  background-position: 50% 25%;
+  padding: 60px 30px 70px 30px;
+}
+
+.header-content {
+  max-width: 60%;
+  margin-left: 15px;
+}
+
+.header-text {
+  max-width: 80%;
+}
+
+.student-testimonials {
+  padding: 30px 70px 90px 70px;
+  width: 80%;
+  margin: auto;
+}
+
+.student-text {
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.student-container {
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.learning {
+  padding: 30px 70px;
+  background-color: #e7e7e7;
+  min-height: 350px;
+}
+
+.learning-left {
+  float: left;
+  max-width: 40%;
+  margin-left: 20px;
+}
+
+.learning-right {
+  float: right;
+  width: 400px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.footer h4 {
+  margin: 50px;
+}
+
+.learning li {
+  margin-bottom: 23px;
+  list-style-type: square;
+}
+
+.learning h3 {
+  margin-bottom: 30px;
+}

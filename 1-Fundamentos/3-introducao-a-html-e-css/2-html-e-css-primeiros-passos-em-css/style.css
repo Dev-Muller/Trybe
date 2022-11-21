@@ -1,0 +1,45 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, li {
+  font-size: 16px;
+  color: #475550;
+}
+
+h1, h3, .trybe-green {
+  color: #11a36a;
+}
+
+.hero-title {
+  color: #0a7e51;
+  line-height: 55px;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.section-title {
+  line-height: 42px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.picture {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.testimonials {
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.button {
+  color: #fff;
+  background-color: #11a36a;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
