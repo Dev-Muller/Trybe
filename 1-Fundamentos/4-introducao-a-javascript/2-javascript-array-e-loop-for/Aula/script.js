@@ -20,3 +20,9 @@ tasksList.pop();  // remove a última tarefa
 console.log(tasksList);
 
 // [ 'Tomar café', 'Reunião' ] Seria isso mas como na ultima foi adicionado Fazer exercicios da Trybe fica o normal.
+
+tasksList.unshift('Dormir');
+console.log(tasksList);
+
+tasksList.shift();
+console.log(tasksList);
