@@ -37,3 +37,9 @@ if (media >= 5) {
 } else {
     console.log('Reprovado');
 }
+
+let pokemon = 'Zapdos';
+
+if (pokemon === 'Zapdos') {
+    console.log('True');
+}
