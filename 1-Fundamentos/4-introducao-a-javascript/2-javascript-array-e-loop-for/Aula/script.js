@@ -1,3 +1,5 @@
+// ARRAYS
+console.log("Aqui comeca a aula de ARRAYS");
 let tasksList = ['Tomar café', 'Reunião', 'Brincar com o cachorro'];
 
 console.log(tasksList.length);
@@ -27,8 +29,8 @@ console.log(tasksList);
 tasksList.shift();
 console.log(tasksList);
 
-// Para Fixar!!
-
+// Para Fixar da secao de ARRAYS!!
+console.log("Aqui comeca os exercicios de fixar de ARRAYS");
 let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 let menuServices = menu[1];
 
@@ -41,3 +43,23 @@ console.log(indexOfPortfolio);
 menu.push('Contatos');
 
 console.log(menu);
+
+// FOR
+console.log("Aqui comeca a aula de FOR");
+let cars = ['Saab', 'Volvo', 'BMW'];
+
+console.log(cars[0]); // Saab
+console.log(cars[1]); // Volvo
+console.log(cars[2]); // BMW
+
+for (let index = 0; index < cars.length; index += 1) {
+  console.log(cars[index]);
+}
+
+// Para Fixar da secao FOR
+console.log("Aqui comeca os exercicios de fixar de FOR");
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for (let i = 0; i < groceryList.length; i+=1) {
+    console.log(groceryList[i]);
+}
