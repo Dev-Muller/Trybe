@@ -50,4 +50,4 @@ const thirdFilho = filhoPrimeiroFilhoDoFilho
   .parentElement // primeiroFilhoDoFilho
   .parentElement // elementoOndeVoceEsta
   .nextElementSibling; // terceiroFilho
-console.log(terceiroFilho);
+console.log(thirdFilho);
