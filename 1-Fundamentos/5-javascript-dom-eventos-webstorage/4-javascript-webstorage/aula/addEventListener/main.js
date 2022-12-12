@@ -10,16 +10,42 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 // - Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 //  - Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
+const handleChangeTech = (event) => {
+  const techElement = document.querySelector('.tech');
+  techElement.classList.remove('tech');
+  event.target.classList.add('tech');
+  input.value = '';
+}
+
+firstLi.addEventListener('click', handleChangeTech);
+secondLi.addEventListener('click', handleChangeTech);
+thirdLi.addEventListener('click', handleChangeTech);
+
 
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
+input.addEventListener('input', (event) => {
+  const techElement = document.querySelector('.tech');
+  techElement.innerHTML = event.target.value;
+});
 
 // - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 //  - Que tal redirecionar para seu portfólio?
+myWebpage.addEventListener('dblclick', () => {
+  window.location.replace('dev-muller.github.io');
+});
 
 // - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+
+myWebpage.addEventListener('mouseover', (event) => {
+  event.target.style.color = 'red';
+});
+
+myWebpage.addEventListener('mouseout', (event) => {
+  event.target.style.color = 'unset';
+});
 
 // Segue abaixo um exemplo do uso de event.target:
 
