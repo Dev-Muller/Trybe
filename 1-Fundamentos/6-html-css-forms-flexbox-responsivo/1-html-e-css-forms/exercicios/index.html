@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  <title>First Forms</title>
+</head>
+<body>
+  <header>
+    <h1 id="frase-header">Primeiro Forms Feito na TRYBE</h1>
+  </header>
+  <form action="" method="get">
+    <div class="inputs">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" placeholder="Digite seu Nome" autocomplete="off" required autofocus>
+    </div>
+    <div class="inputs">
+      <label for="email">E-mail:</label>
+      <input type="text" id="email" placeholder="Digite seu e-mail" autocomplete="on" required autofocus>
+    </div>
+    <div class="inputs">
+      <input type="radio" name="opcoes" id="opcao1">Opcao 1
+      <input type="radio" name="opcoes" id="opcao2">Opcao 2
+      <input type="radio" name="opcoes" id="opcao3">Opcao 3
+      <input type="radio" name="opcoes" id="opcao4">Opcao 4
+    </div>
+    <div class="inputs">
+      <h4>Espaco para digitar resposta:</h4>
+      <!-- <label for="email">E-mail:</label> -->
+      <textarea id="textarea" rows="5" cols="40" placeholder="Digite sua resposta aqui" required></textarea>
+    </div>
+    <div class="inputs">
+      <label for="date">Data:</label>
+      <input type="date" id="date" required>
+    </div>
+    <div class="inputs">
+      <label for="checkbox1">Concordo 1</label>
+      <input type="checkbox" id="checkbox1" required>
+    </div>
+    <div class="inputs">
+      <label for="checkbox2">Concordo 2</label>
+      <input type="checkbox" id="checkbox2" required>
+    </div>
+    <button type="submit" id="enviar">Enviar</button>
+    <button type="reset" id="apagar">Apagar</button>
+  </form>
+</body>
+</html>
